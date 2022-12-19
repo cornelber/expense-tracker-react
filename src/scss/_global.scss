@@ -47,16 +47,13 @@ li {
 }
 
 .row {
-    // display: flex;
-
-
-    // .col-6 {
-    //     width: 50%;
-    // }
-
-    // .col-12 {
-    //     width: 100%;
-    // }
+    display: grid;
+    &.row-1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    &.row-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 

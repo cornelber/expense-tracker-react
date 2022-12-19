@@ -6,12 +6,12 @@ export const BalanceComponent = () => {
       <div className="sct-wrapper">
         <h1 className="title title-std">your balance</h1>
         <p className="subtitle">$200.00</p>
-        <div className="row">
-          <div className="col col-6">
+        <div className="row row-2">
+          <div className="col">
             <h3 className="income-title title-std">income</h3>
             <p className="income-subtitle">$250.00</p>
           </div>
-          <div className="col col-6">
+          <div className="col">
             <h3 className="expense-title title-std">expense</h3>
             <p className="expense-subtitle">$50.00</p>
           </div>
