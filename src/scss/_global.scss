@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+    font-family: $primary-ff;
+    color: $black;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 40rem;
+}
+
+p {
+    font-size: 25rem;
+}
+
+.title-std {
+    font-size: $regular-fz;
+    font-weight: 400;
+}
+
+
+ul,
+li {
+    list-style-type: none;
+    font-size: 20rem;
+}
+
+.main {
+    margin-bottom: 200rem;
+    &-container {
+        max-width: 600rem;
+        width: 100%;
+        padding: 10rem 5rem;
+        margin-inline: auto;
+    }
+}
+
+.sct-wrapper {
+    margin-block: 40rem;
+}
+
+.row {
+    // display: flex;
+
+
+    // .col-6 {
+    //     width: 50%;
+    // }
+
+    // .col-12 {
+    //     width: 100%;
+    // }
+}
+
+
+.separator {
+    border-radius: 10rem;
+    height: 2rem;
+    background-color: $black;
+    margin-block: 10rem 20rem;
+}
+
+// Buttons & Links
+button {
+    position: relative;
+    font-size: $regular-fz;
+    background-color: transparent;
+    padding: 10rem;
+    border: 0;
+    cursor: pointer;
+}
+.btn-secondary {
+    color: $black;
+    transition: color .25s ease-in-out;
+    &:hover {
+        color: $green;
+    }
+} 
+.btn-drop {
+    cursor: no-drop;
+    transition: color .25s ease-in-out;
+    &:hover {
+        color: $red;
+    }
+}

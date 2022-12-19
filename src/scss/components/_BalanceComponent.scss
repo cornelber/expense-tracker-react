@@ -1,0 +1,49 @@
+.balance-sct {
+    .title {
+        margin-bottom: 5rem;
+    }
+    .subtitle {
+        font-size: $big-fz;
+        margin-bottom: 40rem;
+    }
+
+    .col {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+        .income-title,
+        .expense-title {
+            font-size: $small-fz;
+            font-weight: 400;
+        }
+
+        .income-subtitle,
+        .expense-subtitle {
+            font-size: $medium-fz;
+        }
+
+        .income-subtitle {
+            color: $green;
+        }
+
+        .expense-subtitle {
+            color: $red;
+        }
+
+        // &:not(:first-of-type) {
+        //     &::before {
+        //         content: '';
+        //         width: 2rem;
+        //         height: 80%;
+        //         position: absolute;
+        //         top: 50%;
+        //         transform: translateY(-50%);
+        //         left: 0;
+        //         background-color: $black;
+        //     }
+        // }
+    }
+}
